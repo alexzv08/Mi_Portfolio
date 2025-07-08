@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@plugin "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+
+@tailwind utilities;
+/* *{
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+} */
+
+@layer utilities {
+  /* keyframes estándar */
+  @keyframes slide-down {
+    0%   { transform: translateY(-10); }
+    100% { transform: translateY(10px); }
+  }
+
+  /* utilidad para Tailwind */
+  .animate-slide-down {
+    animation: slide-down 2s ease-out infinite alternate;
+  }
+}
