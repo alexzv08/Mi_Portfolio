@@ -177,9 +177,9 @@ function App() {
 
           {/* SOBRE MI */}
           <section className='section undefined scroll-m-20 w-full mx-auto container lg:max-w-4xl md:max-w-2xl'>
-            <h1 className='flex items-center mb-6 text-3xl font-semibold gap-x-3 text-black/80  undefined'>Sobre mi</h1>
+            <h1 className='flex items-center mb-6 text-3xl font-semibold gap-x-3 text-gray-100  undefined'>Sobre mi</h1>
             <article className='flex flex-col items-center justify-center gap-8 text-gray-700  md:flex-row'>
-              <div className='[&>p]:mb-4 [&>p>strong]:text-yellow-500 dark:[&>p>strong]:text-yellow-100 [&>p>strong]:font-normal [&>p>strong]:font-mono text-pretty order-2 md:order-1'>
+              <div className='[&>p]:mb-4 [&>p>strong]:text-yellow-500 dark:[&>p>strong]:text-yellow-100 [&>p>strong]:font-normal [&>p>strong]:font-mono text-pretty order-2 md:order-1 text-gray-400'>
                 <p>
                   Me llamo Alejandro, aunque muchos me llaman Alex. Mi pasión por la programación comenzó desde muy joven, cuando empecé a trastear con mis primeros ordenadores. 
                 Desde entonces, he dedicado mi carrera a convertirme en un desarrollador Full Stack con experiencia en tecnologías como React, Node.js y TailwindCSS.
