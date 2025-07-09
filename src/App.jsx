@@ -75,7 +75,7 @@ function App() {
                     <img src={Gmail} alt="" className='w-6' onClick={() => window.open('mailto:tuemail@gmail.com')}/>
                   </div>
                 </div>
-              <a  href="./AlejandroDeLaTorreCV.pdf" download className='w-fit bg-blue-400 text-black rounded-4xl py-2 px-4 cursor-pointer text-lg shadow-[0px_0px_9px_3px_#5799d4] hover:bg-blue-300 transition-all duration-600 ease-in-out'>
+              <a  href="../public/AlejandroDeLaTorreCV.pdf" download className='w-fit bg-blue-400 text-black rounded-4xl py-2 px-4 cursor-pointer text-lg shadow-[0px_0px_9px_3px_#5799d4] hover:bg-blue-300 transition-all duration-600 ease-in-out'>
                 Descarga CV
               </a>
               </div>
