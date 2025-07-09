@@ -75,7 +75,9 @@ function App() {
                     <img src={Gmail} alt="" className='w-6' onClick={() => window.open('mailto:tuemail@gmail.com')}/>
                   </div>
                 </div>
-              <button className='w-fit bg-blue-400 text-black rounded-4xl py-2 px-4 cursor-pointer text-lg shadow-[0px_0px_9px_3px_#5799d4] hover:bg-blue-300 transition-all duration-600 ease-in-out'>Descarga CV</button>
+              <a  href="./AlejandroDeLaTorreCV.pdf" download className='w-fit bg-blue-400 text-black rounded-4xl py-2 px-4 cursor-pointer text-lg shadow-[0px_0px_9px_3px_#5799d4] hover:bg-blue-300 transition-all duration-600 ease-in-out'>
+                Descarga CV
+              </a>
               </div>
             </div>
             <div className='w-1/2 flex justify-center items-center '>
@@ -125,13 +127,13 @@ function App() {
                     </div>
                   </div>
                   <div className='w-full md:w-1/2'>
-                    <h1 className='text-2xl font-bold text-gray-800 dark:text-gray-100'>Simulador de Gundam TCG</h1>
+                    <h1 className='text-2xl font-bold dark:text-gray-100'>Simulador de Gundam TCG</h1>
                     <div className='flex flex-wrap gap-2 mt-2 mb-2 sm:grid sm:grid-cols-3'>
                       <span className='flex gap-x-2 rounded-full text-xs bg-black text-white py-1 px-2 '>Node.js</span>
                       <span className='flex gap-x-2 rounded-full text-xs bg-black text-white py-1 px-2 '>Socket.io</span>
                       <span className='flex gap-x-2 rounded-full text-xs bg-black text-white py-1 px-2 '>MYSQL</span>
                     </div>
-                    <p className='mt-2 text-gray-700 dark:text-gray-400'>
+                    <p className='mt-2 dark:text-gray-400'>
                       Simulador online para partidas 1vs1 del juego de cartas Gundam TCG, desarrollado como aplicación web en tiempo real. El proyecto permite a dos jugadores conectarse desde cualquier navegador y disputar partidas siguiendo las reglas oficiales del juego.
                     </p>
                     <div className='flex items-end justify-start mt-4 gap-x-4'>
@@ -150,7 +152,7 @@ function App() {
                     </div>
                   </div>
                   <div className='w-full md:w-1/2'>
-                  <h1 className='text-2xl font-bold text-gray-800 dark:text-gray-100'>Proyect-Yggdrasil</h1>
+                  <h1 className='text-2xl font-bold dark:text-gray-100'>Proyect-Yggdrasil</h1>
                     <div className='flex flex-wrap gap-2 mt-2 mb-2 sm:grid sm:grid-cols-3'>
                       <span className='flex gap-x-2 rounded-full text-xs bg-black text-white py-1 px-2 '>React</span>
                       <span className='flex gap-x-2 rounded-full text-xs bg-black text-white py-1 px-2 '>TailwindCSS</span>
@@ -158,7 +160,7 @@ function App() {
                       <span className='flex gap-x-2 rounded-full text-xs bg-black text-white py-1 px-2 '>Socket.io</span>
                       <span className='flex gap-x-2 rounded-full text-xs bg-black text-white py-1 px-2 '>MYSQL</span>
                     </div>
-                    <p className='mt-2 text-gray-700 dark:text-gray-400'>
+                    <p className='mt-2 dark:text-gray-400'>
                       Proyect-Yggdrasil es una plataforma web desarrollada como Trabajo de Fin de Grado en Desarrollo de Aplicaciones Web (DAW), centrada en el mundo de los juegos de cartas coleccionables (TCG). Su objetivo es ofrecer a los jugadores un entorno completo para gestionar sus colecciones, crear mazos personalizados y conectar con otros usuarios de forma activa.
                     </p>
                     <div className='flex items-end justify-start mt-4 gap-x-4'>
@@ -175,8 +177,8 @@ function App() {
 
           {/* SOBRE MI */}
           <section className='section undefined scroll-m-20 w-full mx-auto container lg:max-w-4xl md:max-w-2xl'>
-            <h1 className='flex items-center mb-6 text-3xl font-semibold gap-x-3 text-black/80 dark:text-white undefined'>Sobre mi</h1>
-            <article className='flex flex-col items-center justify-center gap-8 text-gray-700 dark:text-gray-300 md:flex-row'>
+            <h1 className='flex items-center mb-6 text-3xl font-semibold gap-x-3 text-black/80  undefined'>Sobre mi</h1>
+            <article className='flex flex-col items-center justify-center gap-8 text-gray-700  md:flex-row'>
               <div className='[&>p]:mb-4 [&>p>strong]:text-yellow-500 dark:[&>p>strong]:text-yellow-100 [&>p>strong]:font-normal [&>p>strong]:font-mono text-pretty order-2 md:order-1'>
                 <p>
                   Me llamo Alejandro, aunque muchos me llaman Alex. Mi pasión por la programación comenzó desde muy joven, cuando empecé a trastear con mis primeros ordenadores. 
